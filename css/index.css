@@ -1,0 +1,141 @@
+	body{
+		overflow-x:hidden;
+	}
+	.navbar,.navbar-default,.container{
+
+		background-color: #ffffcc;	
+		width: 100%;
+		/*color: #000000;*/
+		font-weight: bolder;
+		z-index: 1;
+		margin-bottom: 0px;
+	}
+	#nav{
+		background-color: black;
+		display: none;
+		left: 0;
+		width: 250px;
+		height: 1000px;
+		position: absolute;
+		top: 0px;
+		z-index: 999;
+		
+	}
+	.sidebar-brand{
+		font-size: 20px;
+		font-weight: bold;
+		color: white;
+	}
+	li{
+		list-style-type: none;
+	}
+	#btn{
+		display: none;
+	}
+	/*.btn{
+		top: 20px;
+		padding-top: 5px;
+		margin-top: 10px;
+		background-color: red;
+	}*/
+	h1{
+		text-align: center;
+	}
+	.navbar-header{
+		position: absolute;
+		vertical-align: middle;
+		padding-top: 15px;
+		padding-left: 15px;
+	}
+	.anime{
+		-webkit-animation-name: navbar1;
+	    -webkit-animation-duration: 2s;
+	   -webkit-transition:width 2s ;
+	   transition: width .3s;
+	   animation-name: navbar1;
+	   animation-duration: .3s;
+	}
+	.animeback{
+		 transition: width .3s;
+	   animation-name: navbar2;
+	   animation-duration: .3s;
+	}
+	.side{
+		transition: display .5s;
+		animation-name: sidenav;
+		animation-duration: .5s;
+
+
+	}
+	@-webkit-keyframes navbar1{
+	from{
+		position: absolute;
+		/*top: 3000px;*/
+		display: none;
+		width: 0
+		
+		
+
+	}
+	to{
+		position: absolute;
+		width: 250px;
+			
+		display: block;
+			
+	}
+}
+	@-webkit-keyframes navbar2{
+	from{
+		position: absolute;
+		/*top: 3000px;*/
+		display: block;
+		width: 250px;
+		
+		
+
+	}
+	to{
+		position: absolute;
+		width: 0;
+			
+		display: none;
+			
+	}
+}
+	.sidebar-nav{
+		margin: 10px;
+		padding-top: 40px;
+		padding-left: 80px;
+		
+	}
+	.back{
+		
+		float: left;
+	}
+	.sp{
+		padding-left: 20px;
+		padding-top: 30px;
+	}
+	/*.jumbotron{
+		background-image: url("../images/image1.jpg");
+		background-size: contain;
+		background-repeat: no-repeat;
+	}*/
+	.jumbotron .container{
+		margin-left: 0px;
+		padding-left: 0px;
+		padding-right: 0px;
+		padding-top: 20px;
+		background-image: url("../images/image1.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+
+	}
+	.jumbotron .container .col-md-12 {
+		vertical-align: middle;
+		text-align: center;
+		}
+	.jumbotron .container .col-md-12  .btn{
+		padding: 10px 20px;
+	}
