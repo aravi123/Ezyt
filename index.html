@@ -7,6 +7,7 @@
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 <link rel="stylesheet" type="text/css" href="css/index.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
 <script type="text/javascript" src="javascript/index.js"></script>
 
@@ -61,6 +62,108 @@
     	<div class="col-md-12" id="butn">
     	<button type="button" class="btn btn-danger "  onclick="window.location.href='#'" >Specials</button>
     </div></div></div>
+    <section class="menu">
+    <div class="row">
+    	<div class="container">
+    		<div class="col-md-4">
+    			<div class="card">
+  <img class="card-img-top" data-src="images/breakfast.jpg" alt="Card image cap" src="images/breakfast.jpg">
+  <div class="card-block">
+    <h4 class="card-title">Breakfast</h4>
+    
+    <a href="#" class="btn btn-primary">Order Now</a>
+  </div>
+</div>
+    		</div>
+    		<div class="col-md-4">
+    		<div class="card">
+  <img class="card-img-top" data-src="images/breakfast.jpg" alt="Card image cap" src="images/lunch.jpg">
+  <div class="card-block">
+    <h4 class="card-title">Lunch</h4>
+    <a href="#" class="btn btn-primary">Order Now</a>
+  </div>
+</div>
+    			
+    		</div>
+    		<div class="col-md-4">
+    			<div class="card">
+  <img class="card-img-top" data-src="images/breakfast.jpg" alt="Card image cap" src="images/dinner.jpg">
+  <div class="card-block">
+    <h4 class="card-title">Dinner</h4>
+    <a href="#" class="btn btn-primary">Order Now</a>
+  </div>
+</div>
+    		</div>
+    	</div>
 
+    </div>
+    <div class="row">
+    <div class="container">
+    <div class="col-md-4">
+    	<div class="card">
+  <img class="card-img-top" data-src="images/breakfast.jpg" alt="Card image cap" src="images/children.jpg">
+  <div class="card-block">
+    <h4 class="card-title">Children</h4>
+    <a href="#" class="btn btn-primary">Order Now</a>
+  </div>
+</div>
+    </div>
+    <div class="col-md-4">
+   <div class="card">
+  <img class="card-img-top" data-src="images/breakfast.jpg" alt="Card image cap" src="images/dessert.jpg">
+  <div class="card-block">
+    <h4 class="card-title">Dessert</h4>
+    <a href="#" class="btn btn-primary">Order Now</a>
+  </div>
+</div>
+    		
+    </div>
+    <div class="col-md-4">
+    <div class="card">
+  <img class="card-img-top" data-src="images/breakfast.jpg" alt="Card image cap" src="images/beverages.png">
+  <div class="card-block">
+    <h4 class="card-title">Beverages</h4>
+    <a href="#" class="btn btn-primary">Order Now</a>
+  </div>
+</div>
+    	
+    </div>
+    </div>
+    </div>
+    	
+    </section>
+    <section class="specials">
+    	
+    </section>
+    <footer class="footer">
+        <div class="row">
+          <div class="container">
+          <div class="col-lg-12 col-md-12" id="socialicons"> 
+          <h4>Follow us on</h4>
+          <a class="facebook" target="_blank" href="#"><i class="fa fa-facebook fa-2x"></i></a>
+		  <a class="twitter" target="_blank" href="#"><i class="fa fa-twitter fa-2x"></i></a>
+      	  <a class="gplus" target="_blank" href="#"><i class="fa fa-google-plus fa-2x"></i></a>
+      	  <a class="gplus" target="_blank" href="#"><i class="fa fa-youtube fa-2x"></i></a>
+            </div>
+          </div>
+        </div>
+            <div class="row ss">
+            <div class="container">
+                <div class="col-lg-12 col-md-12">
+
+                    <h6>Copyright &copy; Ezyt 2016</h6>
+                </div>
+            </div>
+            </div>
+        </footer>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$(".btn").click(function(){
+    $.post("http://127.0.0.1:3000", function(data, status){
+        console.log("works");
+    });
+});
+	});
+</script>
 </body>
 </html>
