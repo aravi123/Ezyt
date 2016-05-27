@@ -27,7 +27,7 @@ var x=0;
 	}
 	function image() {
 		document.getElementById("banner").style.height=y+"px";
-		var z=y-y/3;
+		var z=y-y/2.8;
 		document.getElementById("butn").style.top=z+"px";
 		// document.getElementById("banner").style.width=x+"px";	
 		// body...

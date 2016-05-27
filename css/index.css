@@ -187,3 +187,14 @@
 		border-width: 1px;
 		border-color: black;
 	}
+	.navbar a i{
+		padding-right: 30px;
+		margin: 0;
+		top: 0px;
+		position: absolute;
+		right: 30px;
+		padding-top: 15px;
+
+		margin-top: 0px;
+		
+	}
