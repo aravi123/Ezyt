@@ -1,0 +1,5 @@
+# README #
+
+#This is the Official Repository for Team Ezyt
+
+This Project is to create a Solotion that the food outlets and hence the customers face can be solved by our website. We ensure a link between the user and the kitchen real time. The user has to approach the billing counter only to pay his bill. The net banking feature can also save you a trip to the counter. If the user wishes to place an order beforehand and have the food delivered at a particular time, the same can be done saving the time he would have otherwise spend waiting. Also the user will get a notification regarding his order. Thus the orders that are placed will be promptly dealt with. Also each user, having his own unique login from the QR code, will be easily distinguishable. The site will give a detailed description of the food and it's appearance.The website can be very useful to reduce the queue, save time and to cater to the real needs of the user.
